@@ -13,9 +13,46 @@ body {
     margin: 0 auto;
 }
 
-/*bg-red*/
+body {
+    font-family: 'Rubik Mono One', sans-serif;
+}
+
+/*body*/
 
 .bg-red {
     background-color: red;
     height: 100vh;
+    position: relative;
+}
+
+.bg-green {
+    background-color: green;
+    height: 100vh;
+    position: relative;
+}
+
+.bg-yellow {
+    background-color: yellow;
+    height: 100vh;
+    position: relative;
+}
+
+.shoes-container {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    translate: -50% -50%;
+    text-align: center;
+}
+
+h1 {
+    color: #FFFF00;
+    font-weight: bolder;
+    font-size: 5em;
+}
+
+.bg-yellow h1 {
+    color: green;
+    font-weight: bolder;
+    font-size: 5em;
 }
