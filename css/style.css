@@ -12,3 +12,10 @@ body {
     max-width: 1200px;
     margin: 0 auto;
 }
+
+/*bg-red*/
+
+.bg-red {
+    background-color: red;
+    height: 100vh;
+}
